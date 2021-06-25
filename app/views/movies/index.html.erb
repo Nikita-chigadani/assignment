@@ -2,8 +2,7 @@ require 'date'
 <h1>Movies</h1>
  <p>
  <% @movies.each do |movie| %>
+    <a href ="/movies/<%=article.id %>">
     <%= movie.title %><br>
-    <%= movie.rating%><br>
-    <%= movie.Summary%><br>
-    <%= movie.released_on%>
+   
 <% end %>
