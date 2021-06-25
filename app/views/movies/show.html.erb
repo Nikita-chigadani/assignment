@@ -1,3 +1,4 @@
-<%= movie.rating%><br>
-    <%= movie.Summary%><br>
-    <%= movie.released_on%><%= f.releasedon.strftime("%d-%B-%Y")  %>
+<h1><%= @movie.rating%><br></h1>
+<p><%= @movie.Summary %><br></p>
+   <%= @movie.released_on.strftime("%d-%B-%Y")%>
+    

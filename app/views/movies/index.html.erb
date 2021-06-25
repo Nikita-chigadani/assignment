@@ -1,8 +1,9 @@
-require 'date'
+
 <h1>Movies</h1>
  <p>
  <% @movies.each do |movie| %>
-    <a href ="/movies/<%=article.id %>">
-    <%= movie.title %><br>
+ <li>
+    <%= link_to movie.title, movie %>
+    
    
 <% end %>
